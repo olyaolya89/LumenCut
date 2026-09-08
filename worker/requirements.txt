@@ -1,0 +1,8 @@
+fastapi>=0.115.0
+uvicorn>=0.32.0
+edge-tts>=6.1.0
+Pillow>=10.0.0
+razdel>=0.5.0
+# optional: pip install faster-whisper  (custom-audio word timestamps, small/medium)
+# optional: pip install open_clip_torch torch  (CLIP ViT-B-32 / ViT-L-14 ranking)
+# optional: pip install scenedetect  (ContentDetector shot pick; ffmpeg scene fallback is built in)
